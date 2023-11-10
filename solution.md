@@ -1,15 +1,17 @@
 ## Turning Strings to URLs
 
 * _URLs cannot have spaces_. 
-* _Spaces are replaced with %20_.
+* _Spaces are replaced with `%20`_.
 * _Solve with and without recursion_.
 
-Edge cases: None really. String input that can either have spaces or no spaces. Can contain letters, numbers, and special characters.
+**Edge cases**: None really. String input that can either have spaces or no spaces. Can contain letters, numbers, and special characters.
 
 **Example**:
 
-Input: `"Jasmine Ann Jones"`
-Output `"Jasmine%20Ann%20Jones"`
+- Input: `"Jasmine Ann Jones"`
+- Output `"Jasmine%20Ann%20Jones"`
+
+### Solution
 
 > without recursion
 
