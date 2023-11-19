@@ -4,6 +4,9 @@
   * > meaning all characters in the string are different.
 * Return bool.
 
+**Edge cases**:
+Cannot convert into an array.
+
 **Examples**: 
 
 - Input: `“hello”`
